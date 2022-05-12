@@ -13,7 +13,7 @@ namespace Content.Client.Cargo.Components
 
         public IReadOnlyList<CargoOrderData> Orders => _orders;
         /// <summary>
-        ///     Event called when the database is updated.
+        ///     Event called when the database is updated. dummy
         /// </summary>
         public event Action? OnDatabaseUpdated;
 
